@@ -46,7 +46,7 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v4 
         with:
-          context: "{{defaultContext}}:api_yamdb"
+          #context: "{{defaultContext}}:api_yamdb"
           push: true
           tags: backndserj/yamdb_final:latest
   
